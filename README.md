@@ -13,10 +13,20 @@
    * Build a model to predict Whether a person is prone to Diabetes are not.
    
  ## Description :
-   * There are  Variables that describes the features of the Dataset.
+   * There are 9  Variables that describes the features of the Dataset.
    
- ## Dataset Details
- 
+ ## Dataset Details :
+   ### Field:
+  * Pregnancies
+  * Glucose	
+  * BloodPressure	
+  * SkinThickness	
+  * Insulin	
+  * BMI
+  * DiabetesPedigreeFunction	
+  * Age
+  * Outcome
+       
  ## Table of Contents:
    * Importing Libraries
    * Reading and Preparing the dataset
@@ -44,3 +54,4 @@
    * time taken by each model
    
 ## Conclusion :
+   * From all the models Best Model Logistic Regression and Support Vector Machine(SVM) have Highest Accuracy 0.76
